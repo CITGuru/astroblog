@@ -1,18 +1,18 @@
 .welcome {
   position: relative;
   height: 550px;
-  background-size: cover
+  background-size: cover;
 }
 
 .welcome:before {
   position: absolute;
   z-index: 0;
-  content: '';
+  content: "";
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background: #6C63FF
+  background: #6c63ff;
 }
 
 .welcome .banner-img {
@@ -27,17 +27,17 @@
 }
 
 .bread-wrapper .bread-inner {
-  background: #F5F8FB;
+  background: #f5f8fb;
   border-radius: 5px;
   padding: 15px 25px;
 }
-.bread-inner ul.nav li a{
+.bread-inner ul.nav li a {
   font-weight: 500;
-  color: #3F3D56;
+  color: #3f3d56;
   font-size: 1.3em;
 }
 .bread-inner ul.nav li a.active {
-  color: #3960EE;
+  color: #3960ee;
 }
 
 .bread-inner #searchbox {
@@ -46,38 +46,82 @@
   height: 90%;
   margin-top: 2px;
 }
-@media (min-width: 1200px){
+.row {
+  margin-right: unset;
+  margin-left: unset;
+}
+.unpad {
+  padding-right: unset;
+  padding-left: unset;
+}
+.article.card {
+  color: #3f3d56;
+}
+.article.card .summary {
+  color: black;
+}
+.article.card.first .card-img-top {
+  height: 395px;
+}
+
+@media (min-width: 768px) {
+  .small.row .col-md-5 {
+    flex: 0 0 45.766667%;
+    max-width: 45.766667%;
+  }
+}
+
+.article.card .card-top-body .category {
+  font-weight: 600;
+}
+.article.card .card-top-body .date {
+  color: rgba(128, 128, 128, 0.5);
+}
+.ctspce {
+  width: 10px;
+  height: 10px;
+  background-color: #575a89;
+  border-radius: 100%;
+  display: inline-block;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+.read-more {
+  color: #575a89;
+  font-weight: bold;
+  text-decoration: underline;
+}
+@media (min-width: 1200px) {
   .container {
     max-width: 1260px;
   }
 }
-@media (max-width: 575px){
-.bread-inner ul.nav li a{
-  font-size: .9em;
-
-}
+@media (max-width: 575px) {
+  .bread-inner ul.nav li a {
+    font-size: 0.9em;
+  }
   .container {
     max-width: 390px;
   }
   .show-lg {
-    display: none
+    display: none;
   }
 }
 
-@media (max-width: 991.98px){
-.welcome {
+@media (max-width: 991.98px) {
+  .welcome {
     height: auto;
-}
-}
-
-@media (max-width:767.98px) {
-  .welcome .inner-wrapper {
-      text-align: center
   }
 }
 
-@media (max-width:400px) {
+@media (max-width: 767.98px) {
+  .welcome .inner-wrapper {
+    text-align: center;
+  }
+}
+
+@media (max-width: 400px) {
   .welcome .welcome-heading {
-      font-size: 2.415rem
+    font-size: 2.415rem;
   }
 }
