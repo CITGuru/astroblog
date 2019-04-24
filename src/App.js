@@ -5,12 +5,9 @@ import store, { history } from "./store";
 import { Route, Switch } from "react-router";
 import Home from "./Views/Home";
 
-
 import "./bootstrap.min.css";
 import "./shards.min.css";
-
 import "./App.css";
-
 
 class App extends Component {
   render() {

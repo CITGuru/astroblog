@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import { connect } from 'react-redux'
 import Banner from '../Components/Banner';
 import BreadBanner from '../Components/BreadBanner';
+import Container from '../Layouts/Container';
 
 class Home extends Component {
   render() {
@@ -10,6 +11,7 @@ class Home extends Component {
       <div>
         <Banner />
         <BreadBanner />
+        <Container />
       </div>
     )
   }
