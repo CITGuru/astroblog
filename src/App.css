@@ -41,7 +41,10 @@
 }
 
 .bread-inner #searchbox {
-  width: 100px;
+  width: 240px;
+  float: right;
+  height: 90%;
+  margin-top: 2px;
 }
 @media (max-width: 991.98px){
 .welcome {
