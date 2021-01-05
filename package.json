@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "@editorjs/editorjs": "^2.12.4",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "connected-react-router": "^6.4.0",
     "font-awesome": "^4.7.0",
     "qs": "^6.7.0",
